@@ -19,7 +19,7 @@ First, combine the point data sets, for example, by using the Pandas `append() <
 Then, specify the extent Polygon using a convex hull or a bounding box + a little buffer (the buffer enables the routes to go beyond the extent of the point layers!).
 When creating the buffer, remember that the coordinates are in decimal degrees!
 
-**Option 2 - Bounding box:**
+**Option 1 - Bounding box:**
 Specify a Polygon that represents the **bounding box** of the combined points;
 
 - First, define the bounds:
